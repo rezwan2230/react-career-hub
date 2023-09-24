@@ -25,7 +25,7 @@ const FeatureJobs = () => {
                 }
             </div>
             <div className={jobs.length===dataLength && "hidden"}>
-                <button onClick={()=>setDataLength(jobs.length)} className="btn btn-primary mt-7">See all jobs</button>
+                <button onClick={()=>setDataLength(jobs.length)} className="btn btn-primary my-7">See all jobs</button>
             </div>
         </div>
     );
